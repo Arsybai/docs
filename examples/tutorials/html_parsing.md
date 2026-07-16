@@ -33,7 +33,7 @@ console.log(heading?.textContent); // "Example Domain"
 Run the script with network access:
 
 ```sh
- deno run --allow-net parse_html.ts
+deno run --allow-net parse_html.ts
 ```
 
 The returned document supports familiar APIs such as `querySelector`,
@@ -65,7 +65,7 @@ This example parses an in-memory string, so it does not require additional
 runtime permissions:
 
 ```sh
- deno run parse_html.ts
+deno run parse_html.ts
 ```
 
 Neither library turns Deno into a full browser or executes scripts embedded in
